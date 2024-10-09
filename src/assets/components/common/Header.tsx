@@ -3,7 +3,7 @@ import PersonifyIcon from "../../images/personify-icon.png";
 
 export default function Header() {
   return (
-    <header className="w-full px-4 grid grid-cols-12 justify-between items-center h-[100px]">
+    <header className="w-full px-4 grid grid-cols-12 justify-between items-center h-[100px] lg:px-8">
       <div className="h-full w-full col-span-10 flex justify-start items-center gap-4">
         <img
           src={PersonifyIcon}
